@@ -17,7 +17,10 @@ function Login() {
                     <br></br>
                 </div>
                 <div className='loginSignUp'>
-                    <a href="/login" type='button' className='btn btn-primary'>Log in</a>
+                    <div className='loginButtons'>
+                        <a href="/login" type='button' className='btn btn-primary'>Log in</a>
+                        <a href="/login" type='button' className='btn btn-success'>Server log in</a>
+                    </div>
                     <p>
                         Don't have an account? Click&nbsp;
                         <a href="/sign_up">here</a> to sign up.
