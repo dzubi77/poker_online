@@ -3,13 +3,11 @@ import React from "react";
 function Home() {
     return (
         <>
-            <div>
+            <div className="homepageContent">
                 <h1>Home page</h1>
-                <p>
-                    To continue, please
-                    <a href='./login'> log in </a>
-                    first.
-                </p>
+                    To continue, please&nbsp;
+                    <a href='./login'>log in</a>
+                    &nbsp;first.
             </div>
         </>
     );
