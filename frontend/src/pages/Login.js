@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 
 function Login() {
     return (
         <>
-            <Navbar/>
             <h1>Login page</h1>
+            <div>
+                Click here to go to the 
+                <a href="/"> home page</a>
+                .
+            </div>
         </>
     );
 }
